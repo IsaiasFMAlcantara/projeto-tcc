@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hello_word/componentes/cores.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
@@ -10,7 +11,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppBar(
+    return AppBar(backgroundColor: corAppBar,
       title: Center(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
